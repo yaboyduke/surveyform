@@ -86,7 +86,7 @@ header {
 /* Mobile Devices (max-width: 767px) */
 @media screen and (max-width: 767px) {
   #survey-form {
-      width: 90%;
+      width: 80%;
       padding: 10px;
   }
   input[type="text"], input[type="number"], textarea {
@@ -96,14 +96,14 @@ header {
       height: 150px;
   }
   ul {
-      font-size: 12px;
+      font-size: 10px;
   }
 }
 
 /* Tablets (768px to 1024px) */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #survey-form {
-      width: 80%;
+      width: 75%;
       padding: 15px;
   }
   input[type="text"], input[type="number"], textarea {
