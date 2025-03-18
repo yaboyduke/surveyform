@@ -80,3 +80,53 @@ header {
      background-repeat: no-repeat;
      background-size: cover;
   }
+
+  /* Media Queries */
+
+/* Mobile Devices (max-width: 767px) */
+@media screen and (max-width: 767px) {
+  #survey-form {
+      width: 90%;
+      padding: 10px;
+  }
+  input[type="text"], input[type="number"], textarea {
+      width: 100%;
+  }
+  textarea {
+      height: 150px;
+  }
+  ul {
+      font-size: 12px;
+  }
+}
+
+/* Tablets (768px to 1024px) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #survey-form {
+      width: 80%;
+      padding: 15px;
+  }
+  input[type="text"], input[type="number"], textarea {
+      width: 100%;
+  }
+  textarea {
+      height: 180px;
+  }
+  footer {
+      font-size: 14px;
+  }
+}
+
+/* Desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+  #survey-form {
+      width: 600px;
+      padding: 20px;
+  }
+  textarea {
+      height: 200px;
+  }
+  footer {
+      font-size: 16px;
+  }
+}
